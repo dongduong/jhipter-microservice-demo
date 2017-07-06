@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "nl.infodation.jhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.5.6",
+    "baseName": "myServiceDemo",
+    "packageName": "nl.infodation.jhipster",
+    "packageFolder": "nl/infodation/jhipster",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "myOauth2ServerDemo",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "7f35a641e9618ed45f1a3d714b9552a530ee240e",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}
